@@ -570,6 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988673389}
   - component: {fileID: 988673388}
+  - component: {fileID: 988673390}
   m_Layer: 0
   m_Name: Virtual Camera 2
   m_TagString: Untagged
@@ -628,13 +629,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988673387}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14087346, y: 0.32321268, z: -0.041542195, w: 0.93485963}
+  m_LocalRotation: {x: 0.17805402, y: 0.8215205, z: -0.39732197, w: 0.36815235}
   m_LocalPosition: {x: -1.98, y: 5.06, z: -0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 16.873, y: 38.263, z: 0.802}
+  m_LocalEulerAnglesHint: {x: 16.873, y: 38.263, z: 0}
+--- !u!114 &988673390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988673387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38bda98361e1de48a4ca2bd86ea3c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRotationComposer
+  Composition:
+    ScreenPosition: {x: 0, y: 0}
+    DeadZone:
+      Enabled: 0
+      Size: {x: 0.2, y: 0.2}
+    HardLimits:
+      Enabled: 0
+      Size: {x: 0.8, y: 0.8}
+      Offset: {x: 0, y: 0}
+  CenterOnActivate: 1
+  TargetOffset: {x: 0, y: 0, z: 0}
+  Damping: {x: 0.5, y: 0.5}
+  Lookahead:
+    Enabled: 0
+    Time: 0
+    Smoothing: 0
+    IgnoreY: 0
 --- !u!1 &1211456256
 GameObject:
   m_ObjectHideFlags: 0
