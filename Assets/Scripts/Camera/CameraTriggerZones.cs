@@ -1,29 +1,31 @@
-using UnityEngine;
 using Unity.Cinemachine;
+using UnityEngine;
 
-
-public class CameraTriggerZones : MonoBehaviour
+namespace ByteClub.MayorOffice.Camera
 {
-    //Need to somehow get the current camera? Gonna hard code it. 
-    [SerializeField] private CinemachineCamera _otherCamera;
-    [SerializeField] private CinemachineCamera _triggerCamera;
-    [SerializeField] private GameObject _player;
-
-    private void OnTriggerEnter(Collider other)
+    public class CameraTriggerZones : MonoBehaviour
     {
-        if (other.gameObject == _player)
+        //Need to somehow get the current camera? Gonna hard code it.
+        [SerializeField] private CinemachineCamera _otherCamera;
+        [SerializeField] private CinemachineCamera _triggerCamera;
+        [SerializeField] private GameObject _player;
+
+        private void OnTriggerEnter(Collider other)
         {
-            _triggerCamera.enabled = true;
-            _otherCamera.enabled = false;
+            if (other.gameObject == _player)
+            {
+                _triggerCamera.enabled = true;
+                _otherCamera.enabled = false;
+            }
         }
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject == _player)
+        private void OnTriggerExit(Collider other)
         {
-            _triggerCamera.enabled = false;
-            _otherCamera.enabled = true;
+            if (other.gameObject == _player)
+            {
+                _triggerCamera.enabled = false;
+                _otherCamera.enabled = true;
+            }
         }
     }
 }
