@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,8 +7,8 @@ namespace ByteClub.MayorOffice.Player
     {
         private GameInput _input;
 
-        public event Action<Vector2> Move;
-        public event Action Interact;
+        public Vector2 MoveInput { get; private set; }
+        public bool InteractPressedThisFrame { get; private set; }
 
         private void Awake()
         {
@@ -24,7 +23,6 @@ namespace ByteClub.MayorOffice.Player
             _input.Player.Move.canceled += OnMove;
 
             _input.Player.Interact.performed += OnInteract;
-            _input.Player.Interact.canceled += OnInteract;
         }
 
         private void OnDisable()
@@ -33,19 +31,16 @@ namespace ByteClub.MayorOffice.Player
             _input.Player.Move.canceled -= OnMove;
 
             _input.Player.Interact.performed -= OnInteract;
-            _input.Player.Interact.canceled -= OnInteract;
 
             _input.Disable();
         }
 
-        private void OnMove(InputAction.CallbackContext context)
+        private void LateUpdate()
         {
-            Move?.Invoke(context.ReadValue<Vector2>());
+            InteractPressedThisFrame = false;
         }
 
-        private void OnInteract(InputAction.CallbackContext context)
-        {
-            Interact?.Invoke();
-        }
+        private void OnMove(InputAction.CallbackContext context) => MoveInput = context.ReadValue<Vector2>();
+        private void OnInteract(InputAction.CallbackContext context) => InteractPressedThisFrame = true;
     }
 }

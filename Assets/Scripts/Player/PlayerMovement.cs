@@ -19,24 +19,9 @@ namespace ByteClub.MayorOffice.Player
             _characterController = GetComponent<CharacterController>();
         }
 
-        private void OnEnable()
-        {
-            _input.Move += OnMove;
-        }
-
-        private void OnDisable()
-        {
-            _input.Move -= OnMove;
-        }
-
-        private void OnMove(Vector2 direction)
-        {
-            _moveInput = direction;
-        }
-
         private void Update()
         {
-            Vector3 move = new Vector3(_moveInput.x, 0f, _moveInput.y) * _playerMoveSpeed;
+            Vector3 move = new Vector3(_input.MoveInput.x, 0f, _input.MoveInput.y) * _playerMoveSpeed;
             move.y = DownwardForce;
 
             _characterController.Move(move * Time.deltaTime);

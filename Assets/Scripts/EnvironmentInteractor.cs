@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace ByteClub.MayorOffice
@@ -12,13 +11,16 @@ namespace ByteClub.MayorOffice
         {
             if (other.TryGetComponent(out IInteractable interactable))
             {
+                Debug.Log($"TRIGGER ENTERED: {other.name}");
                 _interactable = interactable;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.TryGetComponent(out IInteractable interactable))
+            IInteractable interactable = other.GetComponent<IInteractable>();
+
+            if (interactable == _interactable)
             {
                 _interactable = null;
             }

@@ -1,7 +1,6 @@
-using ByteClub.MayorOffice.Player;
 using UnityEngine;
 
-namespace ByteClub.MayorOffice
+namespace ByteClub.MayorOffice.Player
 {
     [RequireComponent(typeof(PlayerInputHandler))]
     [RequireComponent(typeof(EnvironmentInteractor))]
@@ -16,19 +15,12 @@ namespace ByteClub.MayorOffice
             _interactor = GetComponent<EnvironmentInteractor>();
         }
 
-        private void OnEnable()
+        private void Update()
         {
-            _input.Interact += OnInteract;
-        }
-
-        private void OnDisable()
-        {
-            _input.Interact -= OnInteract;
-        }
-
-        private void OnInteract()
-        {
-            _interactor.Interact();
+            if (_input.InteractPressedThisFrame)
+            {
+                _interactor.Interact();
+            }
         }
     }
 }
