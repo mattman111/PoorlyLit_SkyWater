@@ -2,9 +2,12 @@ using UnityEngine;
 
 namespace ByteClub.MayorOffice
 {
+
+    /// Will move interactionIcon logic to seperate script later - Matt
     public class EnvironmentInteractor : MonoBehaviour
     {
         [SerializeField] private Collider _collider;
+        [SerializeField] private IconController _icon;
         private IInteractable _interactable;
 
         private void OnTriggerEnter(Collider other)
@@ -14,6 +17,7 @@ namespace ByteClub.MayorOffice
                 Debug.Log($"TRIGGER ENTERED: {other.name}");
                 _interactable = interactable;
             }
+            _icon.EnableIcon();
         }
 
         private void OnTriggerExit(Collider other)
@@ -24,6 +28,7 @@ namespace ByteClub.MayorOffice
             {
                 _interactable = null;
             }
+            _icon.DisableIcon();
         }
 
         public void Interact()
@@ -32,6 +37,7 @@ namespace ByteClub.MayorOffice
             {
                 _interactable.Interact();
             }
+            _icon.DisableIcon();
         }
     }
 }

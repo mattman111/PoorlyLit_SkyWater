@@ -1,0 +1,2710 @@
+fileFormatVersion: 2
+guid: 91ef9128e8e3c484a92b146bbfa6ed84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 4
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 237
+        width: 52
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf6657bbcfb5d041a442f41c2a425ef
+      internalID: 1249811983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 237
+        width: 44
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8671990c7fecb242a927443ddeb68a7
+      internalID: -680739072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07a03e26db68946b854bef2b7fff15
+      internalID: 466044427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b9ce780cabe64438766ef2a19c9f9a
+      internalID: 1583214898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee2289709df13144b3375e50f94a647
+      internalID: 453397616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 237
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd22757f8e3a934a8553de0d2ff826f
+      internalID: -380307935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 237
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d0921d5fe29244a92429a6354c08d6
+      internalID: 1673657811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b78a6c9644056743808f0ab0a72e77b
+      internalID: -2009048410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedc355f23440f74ca779a0f43129f54
+      internalID: -747172296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 237
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f380660ebbdeaf34d87b68963d576bd7
+      internalID: 594754546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 237
+        width: 5
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57af2a1c3f64af4cb999c2f6351ffa1
+      internalID: 1385816997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f5033744756d248bc0a3f846dc0ebb
+      internalID: -641013212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 213
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9862e8ccbadac4ca6d43b682664ef2
+      internalID: -765834839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 213
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969b8bf023a07bb4496409670fc4b008
+      internalID: -2063267693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 213
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4785bc61dc70a08458f0428389d404ca
+      internalID: -1422544568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 213
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a7a4a216976b4191e9f8fc7522f12
+      internalID: 535805830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 217
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549d219f7f1cda44aa5742d9f0ff12a1
+      internalID: 1977971915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 217
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e5327a3d37e4a469dc456009f85c42
+      internalID: 902590623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 217
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ffb13f8768b3f439123c84da1b8777
+      internalID: -744499451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 217
+        width: 12
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f20509add0fc924d852d3eac4a2dcfd
+      internalID: 223868558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 217
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f5d3bd809ddbe49b0984b8374c3717
+      internalID: -940697758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 217
+        width: 11
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d1b1c926437349aa191d40307b237
+      internalID: -745169482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 217
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be767bf1ac7e542a43584b63636542
+      internalID: 559938264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 217
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b2422a614b9e48a896a616096f777
+      internalID: -231554111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 217
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372ac31007b8fe746a0bf26451856960
+      internalID: 1820404140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 52
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b43ee03d8520e4dae74b637c2bcdd1
+      internalID: 1517029838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 192
+        width: 20
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f413b8639fd7d645b3d728324f8f817
+      internalID: 564963376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 192
+        width: 20
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aa64527aa579649a75d4b2f8056bfb
+      internalID: -1665733006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 191
+        width: 18
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fca4dbbb5fdf34eb794f094c9cd971
+      internalID: -1980566073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 197
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be95bce4ea1e0174d8fa3a78217720c6
+      internalID: -321611054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 197
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14461e4fee1e684a83481a08ced4335
+      internalID: -279547585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d66ca0207e897347b310de021da83a7
+      internalID: -293323942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fa699a7b349d7488b9d20474370b99
+      internalID: 194018852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f092b0361efd48a71d1a2a6b3aa51
+      internalID: 1397294222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ade5790b44289f40b3dc54a44975c40
+      internalID: -896992764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5577d07e2aebda848ac230d2f9859c40
+      internalID: -1363043860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 197
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e9d81f41c5e264397b67730063e763
+      internalID: 256115532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 197
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5171e2e3d1df24cbdd181a01c54c03
+      internalID: 1234121115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 170
+        width: 18
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da60316cc29f38e4182f3ab258fa1d40
+      internalID: 1255448869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 170
+        width: 18
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755519a1d1266f40b2038426823226d
+      internalID: 1952289863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 170
+        width: 18
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54afdc1f141888642bd70879933eb1ea
+      internalID: 526246515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 170
+        width: 17
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5c4acb902aeb547a94689f5f4ad269
+      internalID: -1913045739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 169
+        width: 18
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d3e8f6cba3cd643b655ebc3c16277f
+      internalID: -1572947889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 177
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16800526e25f80458a6017b7b421453
+      internalID: 1333776620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 177
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c373555209f58304ca9b1150ccb7f617
+      internalID: 1375739788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 177
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e3df15a456d8a469810fe59a55cd66
+      internalID: 1890052014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 177
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b233ff83feb64e9533e378af65a82
+      internalID: -1758147333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 177
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fe5244b1d9cd24893267e77eafeb14
+      internalID: -1888763348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 176
+        width: 12
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcf401f5e72c2541960b018184aa4de
+      internalID: 1734489880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 177
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc2495dca5a22498f042b5cd21f672
+      internalID: -1968260285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 177
+        width: 5
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36dd1fbc1326874a806810c8be172e2
+      internalID: 615209335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 176
+        width: 11
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20f78eb9643c104886b77c68974f03d
+      internalID: 338803869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 148
+        width: 13
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afb31816f3f81c4a9f085b8a7dd4bc3
+      internalID: -1161231379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 149
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c5a0ec2de904544937b3c63ce69e23
+      internalID: -1542191386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 148
+        width: 17
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d1a3ab80f239b46aff0f6ddec2c0d6
+      internalID: -1976787627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 148
+        width: 16
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5a186907fb3e14190c24f084f3dd5c
+      internalID: 218424716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 157
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61053551c490ab742992f1a0e46e8b65
+      internalID: -202805738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 157
+        width: 4
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a6bd233446fa640af67c925bcc73ec
+      internalID: -882881332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 157
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487fc808cfb01474b8e5dc9702042523
+      internalID: 193066855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 157
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c5c4c8cb4b95a4384ad0d61780a5c8
+      internalID: -107010659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 157
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17b8f0f2ff4cf649899d00ae6296b18
+      internalID: 2047569312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 156
+        width: 12
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cb3b8dd0a09694eaeed85c9dccd391
+      internalID: -1989063852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 156
+        width: 12
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e3ccc1923306e4fa320df9ae7d46cf
+      internalID: -1181414634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 157
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e0bafb77d67841b99888d86cd9a1c
+      internalID: -1097052644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 157
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea8c4b40a37c0745b732c0604e941ca
+      internalID: -1169335523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a0bde0714de54b960e2e85aef4b08
+      internalID: -239951124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 125
+        width: 39
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aa0ff690bdf004ab0b45b745651161
+      internalID: 821803275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 128
+        width: 8
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e332df154888b4dae183e07a8677e4
+      internalID: 719658710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 133
+        width: 31
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e7110f072008542b09751830d971cf
+      internalID: -471981898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 11
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc65fb140454794889c33a8b7c56bfb
+      internalID: -1199526224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 137
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f179b2833cb8764b9d842ea5df1ab2c
+      internalID: 691530225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 137
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7df8c65acdc97f42bc6c147edd13ba5
+      internalID: 1789691388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 137
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61d388dd054254c936bde7f64d283e
+      internalID: 1018432452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 137
+        width: 11
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efe8f2d3db64a34395557c018bdb237
+      internalID: 464444522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 136
+        width: 12
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dce7b201cee2984db61439d10c24a68
+      internalID: -817838924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 137
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5325426759614744bd53fcc10343b66
+      internalID: -1757339973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 25
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9542aa527b61d6489cfd0edd24f8ddc
+      internalID: 1600788656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 105
+        width: 22
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b585e5e49427448a58ce0ed88aa591
+      internalID: 1777258345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 105
+        width: 22
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bfcaaef5f1e934b9dbae61ec98db95
+      internalID: -1747402970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 105
+        width: 22
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a900ec7461cc9439352fc7375953cd
+      internalID: -149596081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 22
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c9e0aa02b256c478c90cd35cf2ebd5
+      internalID: -431431831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 117
+        width: 7
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532eca677bbdd2d42ba73d1fdd38ddb9
+      internalID: -1420737647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 117
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6581ae5298841b34fb414c1ca2768249
+      internalID: 1276972526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 13
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb85580b737bf764ebbddcfb12668d44
+      internalID: -440268378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 117
+        width: 13
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ed41ec367dad4581ef48b6d7e9981
+      internalID: -1760699331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 118
+        width: 26
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fd6ef2f620095428e3dff5e4ae92c5
+      internalID: -637397584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 118
+        width: 11
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434c0e49b26a4154593c1954dfc70649
+      internalID: 954234275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 96
+        width: 11
+        height: 39
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c38e4e124a3d346a11eb3f4d9affdd
+      internalID: 1856570961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 24
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e9735aad7908548960a51700ba6b70
+      internalID: 2037383353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 81
+        width: 45
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21534aa377a2fe4d801f69e1acda98b
+      internalID: 2142896477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 12
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f280216c8ddebf4d94277fe3f903150
+      internalID: 220980329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 56
+        width: 12
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a43d3927e5633447bde29a3e788a208
+      internalID: -847291996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 96
+        width: 8
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a8178f7555bf340bf03f506526dcad
+      internalID: -1836124582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 97
+        width: 4
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a13a5f4a85dfd428ea27367bb36bb3
+      internalID: -1446792813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 97
+        width: 12
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c01455ef5b0e448cb466a1fd3b318
+      internalID: -952102988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 97
+        width: 12
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48733cd1c6a05384d807da3f4755dc8d
+      internalID: 999838981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 96
+        width: 7
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45c3bfac43fb5f4bac3726ebcda2028
+      internalID: 690862147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 56
+        width: 12
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c407c82cc695340a8211c4a892b69b
+      internalID: -1619582277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 88
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68966116d16867419834145eba437bd
+      internalID: -1462599074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 56
+        width: 13
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b590014a4c976ea4c9329442f2a7c915
+      internalID: 1327627144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 77
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a80cd4afc7e74ea5467c7bdc8bd33
+      internalID: 204754327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 76
+        width: 7
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4b00d0612dba74a9b63fa73649f45e
+      internalID: 585295637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 76
+        width: 11
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9f041eee3d48f4f9b29a501e640537
+      internalID: 1387100159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 80
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203e4f4c10fac847a36dc823680f3ef
+      internalID: 783661762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 78
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949d24cd64475d34a93a86fbcce5b74f
+      internalID: -641745371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 80
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5782bbe71a780fe4187d69c9fa6819c6
+      internalID: -1147426830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 95
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f000aa0579d80ba43924b93b93f7db3d
+      internalID: -1058504238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 61
+        width: 24
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f8221cdf258d14982d3db08a0e3780
+      internalID: 717521362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 56
+        width: 12
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20740d689cb2af444b77e4290b8d3a3e
+      internalID: -865151337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 56
+        width: 11
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb85a51f989bf141a7ce499cff86d26
+      internalID: 661984018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 57
+        width: 12
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98774737c3b614f9f114f86be82143
+      internalID: 803911500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkcloudpspritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 56
+        width: 12
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4951fb9f777e9c846809263cb7be090a
+      internalID: -150596122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f51048ccaff804b4fb5e593ded831cb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      darkcloudpspritesheet_0: 1249811983
+      darkcloudpspritesheet_1: -680739072
+      darkcloudpspritesheet_10: 1385816997
+      darkcloudpspritesheet_100: 204754327
+      darkcloudpspritesheet_101: 585295637
+      darkcloudpspritesheet_102: 1387100159
+      darkcloudpspritesheet_103: 783661762
+      darkcloudpspritesheet_104: -641745371
+      darkcloudpspritesheet_105: -1147426830
+      darkcloudpspritesheet_106: -1058504238
+      darkcloudpspritesheet_107: 717521362
+      darkcloudpspritesheet_108: -865151337
+      darkcloudpspritesheet_109: 661984018
+      darkcloudpspritesheet_11: -641013212
+      darkcloudpspritesheet_110: 803911500
+      darkcloudpspritesheet_111: -150596122
+      darkcloudpspritesheet_12: -765834839
+      darkcloudpspritesheet_13: -2063267693
+      darkcloudpspritesheet_14: -1422544568
+      darkcloudpspritesheet_15: 535805830
+      darkcloudpspritesheet_16: 1977971915
+      darkcloudpspritesheet_17: 902590623
+      darkcloudpspritesheet_18: -744499451
+      darkcloudpspritesheet_19: 223868558
+      darkcloudpspritesheet_2: 466044427
+      darkcloudpspritesheet_20: -940697758
+      darkcloudpspritesheet_21: -745169482
+      darkcloudpspritesheet_22: 559938264
+      darkcloudpspritesheet_23: -231554111
+      darkcloudpspritesheet_24: 1820404140
+      darkcloudpspritesheet_25: 1517029838
+      darkcloudpspritesheet_26: 564963376
+      darkcloudpspritesheet_27: -1665733006
+      darkcloudpspritesheet_28: -1980566073
+      darkcloudpspritesheet_29: -321611054
+      darkcloudpspritesheet_3: 1583214898
+      darkcloudpspritesheet_30: -279547585
+      darkcloudpspritesheet_31: -293323942
+      darkcloudpspritesheet_32: 194018852
+      darkcloudpspritesheet_33: 1397294222
+      darkcloudpspritesheet_34: -896992764
+      darkcloudpspritesheet_35: -1363043860
+      darkcloudpspritesheet_36: 256115532
+      darkcloudpspritesheet_37: 1234121115
+      darkcloudpspritesheet_38: 1255448869
+      darkcloudpspritesheet_39: 1952289863
+      darkcloudpspritesheet_4: 453397616
+      darkcloudpspritesheet_40: 526246515
+      darkcloudpspritesheet_41: -1913045739
+      darkcloudpspritesheet_42: -1572947889
+      darkcloudpspritesheet_43: 1333776620
+      darkcloudpspritesheet_44: 1375739788
+      darkcloudpspritesheet_45: 1890052014
+      darkcloudpspritesheet_46: -1758147333
+      darkcloudpspritesheet_47: -1888763348
+      darkcloudpspritesheet_48: 1734489880
+      darkcloudpspritesheet_49: -1968260285
+      darkcloudpspritesheet_5: -380307935
+      darkcloudpspritesheet_50: 615209335
+      darkcloudpspritesheet_51: 338803869
+      darkcloudpspritesheet_52: -1161231379
+      darkcloudpspritesheet_53: -1542191386
+      darkcloudpspritesheet_54: -1976787627
+      darkcloudpspritesheet_55: 218424716
+      darkcloudpspritesheet_56: -202805738
+      darkcloudpspritesheet_57: -882881332
+      darkcloudpspritesheet_58: 193066855
+      darkcloudpspritesheet_59: -107010659
+      darkcloudpspritesheet_6: 1673657811
+      darkcloudpspritesheet_60: 2047569312
+      darkcloudpspritesheet_61: -1989063852
+      darkcloudpspritesheet_62: -1181414634
+      darkcloudpspritesheet_63: -1097052644
+      darkcloudpspritesheet_64: -1169335523
+      darkcloudpspritesheet_65: -239951124
+      darkcloudpspritesheet_66: 821803275
+      darkcloudpspritesheet_67: 719658710
+      darkcloudpspritesheet_68: -471981898
+      darkcloudpspritesheet_69: -1199526224
+      darkcloudpspritesheet_7: -2009048410
+      darkcloudpspritesheet_70: 691530225
+      darkcloudpspritesheet_71: 1789691388
+      darkcloudpspritesheet_72: 1018432452
+      darkcloudpspritesheet_73: 464444522
+      darkcloudpspritesheet_74: -817838924
+      darkcloudpspritesheet_75: -1757339973
+      darkcloudpspritesheet_76: 1600788656
+      darkcloudpspritesheet_77: 1777258345
+      darkcloudpspritesheet_78: -1747402970
+      darkcloudpspritesheet_79: -149596081
+      darkcloudpspritesheet_8: -747172296
+      darkcloudpspritesheet_80: -431431831
+      darkcloudpspritesheet_81: -1420737647
+      darkcloudpspritesheet_82: 1276972526
+      darkcloudpspritesheet_83: -440268378
+      darkcloudpspritesheet_84: -1760699331
+      darkcloudpspritesheet_85: -637397584
+      darkcloudpspritesheet_86: 954234275
+      darkcloudpspritesheet_87: 1856570961
+      darkcloudpspritesheet_88: 2037383353
+      darkcloudpspritesheet_89: 2142896477
+      darkcloudpspritesheet_9: 594754546
+      darkcloudpspritesheet_90: 220980329
+      darkcloudpspritesheet_91: -847291996
+      darkcloudpspritesheet_92: -1836124582
+      darkcloudpspritesheet_93: -1446792813
+      darkcloudpspritesheet_94: -952102988
+      darkcloudpspritesheet_95: 999838981
+      darkcloudpspritesheet_96: 690862147
+      darkcloudpspritesheet_97: -1619582277
+      darkcloudpspritesheet_98: -1462599074
+      darkcloudpspritesheet_99: 1327627144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
