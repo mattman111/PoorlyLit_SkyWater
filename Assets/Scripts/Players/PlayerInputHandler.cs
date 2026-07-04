@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ByteClub.MayorOffice.Player
+namespace ByteClub.MayorOffice.Players
 {
     public class PlayerInputHandler : MonoBehaviour
     {

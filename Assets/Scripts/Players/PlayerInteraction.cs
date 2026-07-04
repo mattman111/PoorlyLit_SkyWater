@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ByteClub.MayorOffice.Player
+namespace ByteClub.MayorOffice.Players
 {
     [RequireComponent(typeof(PlayerInputHandler))]
     [RequireComponent(typeof(EnvironmentInteractor))]

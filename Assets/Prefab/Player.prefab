@@ -62,10 +62,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2457538073150308664}
+  - component: {fileID: 7912427702150251183}
+  - component: {fileID: 8601578956034613898}
+  - component: {fileID: 6630507163472285495}
+  - component: {fileID: 2251522425426316712}
+  - component: {fileID: 9043117804051363925}
   - component: {fileID: 2178566064968274984}
-  - component: {fileID: 6027734959029640399}
-  - component: {fileID: 703535894180603375}
-  - component: {fileID: 6497711219131398846}
   - component: {fileID: 2820294757145266496}
   m_Layer: 0
   m_Name: Player
@@ -91,6 +93,68 @@ Transform:
   - {fileID: 8182619831204921542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7912427702150251183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040231457795496277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61ba7ff24ad81b41aca48f79ce450c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Players.Player
+--- !u!114 &8601578956034613898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040231457795496277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079b11c71da63f9488aed1236dfe4ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerInputHandler
+--- !u!114 &6630507163472285495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040231457795496277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b69054862f2c744b200462a44d0386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerInteraction
+--- !u!114 &2251522425426316712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040231457795496277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 096a92120132dfd4382ef2671eb96e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.EnvironmentInteractor
+  _collider: {fileID: 4842572082094719471}
+--- !u!114 &9043117804051363925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040231457795496277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb398a165163b44498fd5a45893c5f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerMovement
+  _playerMoveSpeed: 3
 --- !u!143 &2178566064968274984
 CharacterController:
   m_ObjectHideFlags: 0
@@ -116,44 +180,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6027734959029640399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7040231457795496277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 079b11c71da63f9488aed1236dfe4ec4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerInputHandler
---- !u!114 &703535894180603375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7040231457795496277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb398a165163b44498fd5a45893c5f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerMovement
-  _playerMoveSpeed: 3
---- !u!114 &6497711219131398846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7040231457795496277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 096a92120132dfd4382ef2671eb96e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.EnvironmentInteractor
-  _collider: {fileID: 4842572082094719471}
 --- !u!54 &2820294757145266496
 Rigidbody:
   m_ObjectHideFlags: 0

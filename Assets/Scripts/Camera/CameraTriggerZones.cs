@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using ByteClub.MayorOffice.Players;
 
 namespace ByteClub.MayorOffice.Camera
 {
@@ -8,11 +9,10 @@ namespace ByteClub.MayorOffice.Camera
         //Need to somehow get the current camera? Gonna hard code it.
         [SerializeField] private CinemachineCamera _otherCamera;
         [SerializeField] private CinemachineCamera _triggerCamera;
-        [SerializeField] private GameObject _player;
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject == _player)
+            if (other.TryGetComponent<Player>(out _))
             {
                 _triggerCamera.enabled = true;
                 _otherCamera.enabled = false;
@@ -21,7 +21,7 @@ namespace ByteClub.MayorOffice.Camera
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject == _player)
+            if (other.TryGetComponent<Player>(out _))
             {
                 _triggerCamera.enabled = false;
                 _otherCamera.enabled = true;
