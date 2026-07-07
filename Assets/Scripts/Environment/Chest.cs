@@ -17,18 +17,17 @@ namespace ByteClub.MayorOffice.Environment
         {
             _audioSource = GetComponent<AudioSource>();
             _isOpen = false;
-            _isOpenning = false; ;
+            _isOpenning = false;
         }
         public void Interact()
         {
-            if (!_isOpen)
+            if (!_isOpen && !_isOpenning)
             {
                 Debug.Log("Player interacts with chest.");
                 _audioSource.Play();
                 _isOpenning = true;
             }
-
-            if (_isOpen)
+            else
             {
                 Debug.Log("Chest is already open.");
             }
@@ -40,13 +39,14 @@ namespace ByteClub.MayorOffice.Environment
         {
             if (_isOpenning)
             {
-                if (_pivot.transform.rotation.x != 90)
+                float angleDiff = Quaternion.Angle(_pivot.transform.rotation, _lookToRotation.rotation);
+                if (angleDiff > 0.1f)
                 {
                     _pivot.transform.rotation = Quaternion.Lerp(_pivot.transform.rotation, _lookToRotation.rotation, _openSpeed * Time.deltaTime);
                 }
-
-                if (_pivot.transform.rotation.x >= 89f)
+                else
                 {
+                    _pivot.transform.rotation = _lookToRotation.rotation;
                     _isOpenning = false;
                     _isOpen = true;
                 }
