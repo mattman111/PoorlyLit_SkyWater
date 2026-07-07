@@ -16,8 +16,8 @@ namespace ByteClub.MayorOffice
             {
                 Debug.Log($"TRIGGER ENTERED: {other.name}");
                 _interactable = interactable;
+                _icon.EnableIcon();
             }
-            _icon.EnableIcon();
         }
 
         private void OnTriggerExit(Collider other)
@@ -27,8 +27,8 @@ namespace ByteClub.MayorOffice
             if (interactable == _interactable)
             {
                 _interactable = null;
+                _icon.DisableIcon();
             }
-            _icon.DisableIcon();
         }
 
         public void Interact()
@@ -36,8 +36,8 @@ namespace ByteClub.MayorOffice
             if (_interactable != null)
             {
                 _interactable.Interact();
+                _icon.DisableIcon();
             }
-            _icon.DisableIcon();
         }
     }
 }

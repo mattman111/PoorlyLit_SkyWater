@@ -12,11 +12,19 @@ namespace ByteClub.MayorOffice
         private void Awake()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
+        private void OnEnable()
+        {
             if (_startDisabled)
             {
                 DisableIcon();
             }
+        }
+
+        void Update()
+        {
+
         }
 
         public void DisableIcon()
