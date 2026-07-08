@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8182619831204921542}
   - component: {fileID: 4005456254093962241}
+  - component: {fileID: 452034944283312882}
   m_Layer: 0
   m_Name: InteractionTrigger
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 2077362186164252909}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.59, z: 1.2}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
+  m_LocalPosition: {x: 0, y: 0.142, z: 1.2}
+  m_LocalScale: {x: 1.5, y: 1.9477037, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2457538073150308664}
@@ -53,6 +54,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &452034944283312882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077362186164252909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 096a92120132dfd4382ef2671eb96e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Players.PlayerInteractionTrigger
+  _icon: {fileID: 5064654632117890863}
 --- !u!1 &7040231457795496277
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,7 +79,6 @@ GameObject:
   - component: {fileID: 7912427702150251183}
   - component: {fileID: 8601578956034613898}
   - component: {fileID: 6630507163472285495}
-  - component: {fileID: 2251522425426316712}
   - component: {fileID: 9043117804051363925}
   - component: {fileID: 2178566064968274984}
   - component: {fileID: 2820294757145266496}
@@ -86,13 +99,13 @@ Transform:
   m_GameObject: {fileID: 7040231457795496277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42000008, y: 1.336, z: -2.6500003}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8182619831204921542}
   - {fileID: 7382058559234684497}
   - {fileID: 9161306611581013381}
-  - {fileID: 8182619831204921542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7912427702150251183
@@ -131,20 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b69054862f2c744b200462a44d0386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.Player.PlayerInteraction
---- !u!114 &2251522425426316712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7040231457795496277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 096a92120132dfd4382ef2671eb96e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ByteClub.MayorOffice.EnvironmentInteractor
-  _collider: {fileID: 0}
-  _icon: {fileID: 5064654632117890863}
 --- !u!114 &9043117804051363925
 MonoBehaviour:
   m_ObjectHideFlags: 0
